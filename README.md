@@ -1,0 +1,3 @@
+Hola! Este es el repositorio github para GoCycle, un proyecto cuyo objetivo es mejorar los comportamientos de reciclaje de la comunidad universitaria. 
+Consiste de un sistema de gestion de residuos reciclables con reconocimiento de imágenes, por medio de una ESP32-CAM conectada a un modelo de Machine Learning gestionado por Edge Impulse, una plataforma de edge computing que permite construir datasets, entrenar y optimizar modelos, para finalmente enviarlos a el microcontrolador.
+El modelo presente en nuestra ESP32-CAM identifica latas de aluminio, y posteriormente envía una señal a un Arduino Uno mediante comunicación serial que logra activar un servomotor para abrir la compuerta que da paso a la lata al interior del recipiente.
